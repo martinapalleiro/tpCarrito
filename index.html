@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda</h1>
+
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+        </div>
+        
+        <div class="count-products">
+            <span id="contador-productos">0</span>
+        </div>
+
+        <div class="container-cart-products hidden-cart">
+            <div class="row-product">
+                <div class="cart-product">
+                <div class="info-cart-product">
+                    <span class="cantidad-producto-carrito">1</span>
+                    <p class="titulo-producto-carrito">Remera roja</p>
+                    <span class="precio-producto-carrito">$80000</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                </svg>
+                  
+                </div>
+            </div>
+            <div class="cart-total">
+                <h3>Total;</h3>
+                <span class="total-pagar">$40000</span>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://mercadodelsuplemento.com/wp-content/uploads/2021/11/21.jpg" alt="remera">
+            </figure>
+            <div class="info-product">
+                <h2> Remera roja</h2>
+                <p class="price">$8000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/zara-camiseta-negra-crop-1557761487.jpg" alt="remera">
+            </figure>
+            <div class="info-product">
+                <h2> Remera negra </h2>
+                <p class="price">$7500</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://img1.shopcider.com/product/1675337361000-Q3nHae.jpg?x-oss-process=image/resize,w_700,m_lfit/quality,Q_60/format,webp" alt="remera">
+            </figure>
+            <div class="info-product">
+                <h2> Remera blanca </h2>
+                <p class="price">$7000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://img.freepik.com/fotos-premium/mujer-jeans-mom-fit-aislado-sobre-fondo-blanco-jeans-cintura-alta-estilo-casual_125869-2331.jpg" alt="jean">
+            </figure>
+            <div class="info-product">
+                <h2> Jean mom</h2>
+                <p class="price">$22000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://fotos.perfil.com//2020/10/08/900/0/chaqueta-denim-la-tendencia-de-media-estacion-1056737.jpg" alt="campera de jean">
+            </figure>
+            <div class="info-product">
+                <h2> Campera de jean</h2>
+                <p class="price">$32000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/232/893/products/f6169287-7534-4e8f-bcba-b0a459a865861-cad67d06fa64fa4e0216757882239799-640-0.webp" alt="campera puffer">
+            </figure>
+            <div class="info-product">
+                <h2> Campera puffer </h2>
+                <p class="price">$72000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://falabella.scene7.com/is/image/FalabellaCO/122867285_1?wid=800&hei=800&qlt=70" alt="buzo">
+            </figure>
+            <div class="info-product">
+                <h2> Buzo New York</h2>
+                <p class="price">$29000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://acdn.mitiendanube.com/stores/001/245/791/products/2e37d65f-cd2b-45ca-a411-c13aa4d5980a-a99f20a7727330b0e517105390261213-1024-1024.jpg" alt="buzo vans">
+            </figure>
+            <div class="info-product">
+                <h2> buzo vans</h2>
+                <p class="price">$33000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://joyitastore.com/cdn/shop/products/IMG_1913.jpg?v=1682814787&width=1445" alt="cargo">
+            </figure>
+            <div class="info-product">
+                <h2> Cargo</h2>
+                <p class="price">$43000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
